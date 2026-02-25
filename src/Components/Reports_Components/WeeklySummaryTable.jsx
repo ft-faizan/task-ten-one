@@ -26,8 +26,8 @@ function WeeklySummaryTable({ transactions }) {
   if (weeks.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center gap-3 py-10 px-4
-        bg-[#EDEEF8] dark:bg-white/[0.03] border dark:border-[#3D3D3E] border-white/10 rounded-2xl text-center">
-        <div className="w-12 h-12 rounded-2xl bg-[#E1E3F5] dark:bg-[#3D3D3E] flex items-center justify-center">
+        bg-[#F0FAF0] dark:bg-white/[0.03] border dark:border-[#3D3D3E] border-white/10 rounded-2xl text-center">
+        <div className="w-12 h-12 rounded-2xl bg-[#6FCA68] dark:bg-[#3D3D3E] flex items-center justify-center">
           <svg className="w-6 h-6 text-[#4A5564] dark:text-white" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round"
               d="M9 17v-6m3 6V7m3 10v-4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
