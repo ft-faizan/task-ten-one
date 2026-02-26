@@ -26,7 +26,7 @@ function ConfirmAlert({
 
   return createPortal(
     <>
-      {/* <style>{`
+     <style>{`
         @keyframes alertOverlay {
           from { opacity: 0; }
           to   { opacity: 1; }
@@ -42,7 +42,7 @@ function ConfirmAlert({
         .alert-overlay { animation: alertOverlay 0.2s ease both; }
         .alert-sheet   { animation: alertSheet  0.35s cubic-bezier(0.32,0.72,0,1) both; }
         .alert-modal   { animation: alertModal  0.3s  cubic-bezier(0.34,1.4,0.64,1) both; }
-      `}</style> */}
+      `}</style> 
 
       <div
         onClick={handleBackdropClick}
